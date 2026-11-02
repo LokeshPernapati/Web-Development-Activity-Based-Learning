@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sweet Treats Bakery</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #fff8f0;
+        }
+
+        header {
+            background-color: #8b4513;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        nav {
+            background-color: #5c2e0b;
+            text-align: center;
+            padding: 12px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+            font-weight: bold;
+        }
+
+        .banner {
+            background-color: #f4d6bd;
+            text-align: center;
+            padding: 40px;
+        }
+
+        .banner h2 {
+            color: #5c2e0b;
+            font-size: 32px;
+        }
+
+        .products {
+            text-align: center;
+            padding: 25px;
+        }
+
+        .card {
+            display: inline-block;
+            width: 250px;
+            background-color: white;
+            margin: 15px;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 0 8px gray;
+        }
+
+        .card img {
+            width: 100%;
+            height: 160px;
+            border-radius: 8px;
+        }
+
+        .card h3 {
+            color: #8b4513;
+        }
+
+        button {
+            background-color: #8b4513;
+            color: white;
+            border: none;
+            padding: 10px 18px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #5c2e0b;
+        }
+
+        .about, .contact {
+            text-align: center;
+            padding: 25px;
+            background-color: #f4d6bd;
+        }
+
+        footer {
+            background-color: #5c2e0b;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Sweet Treats Bakery</h1>
+        <p>Freshly Baked Happiness Every Day!</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#products">Our Products</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section class="banner" id="home">
+        <h2>Welcome to Sweet Treats</h2>
+        <p>Enjoy delicious cakes, cookies, pastries and more.</p>
+        <button onclick="alert('Welcome to Sweet Treats Bakery!')">
+            Explore Now
+        </button>
+    </section>
+
+    <section class="products" id="products">
+        <h2>Our Bakery Products</h2>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587"
+                 alt="Chocolate Cake">
+            <h3>Chocolate Cake</h3>
+            <p>Rich and creamy chocolate cake.</p>
+            <p><b>Price: ₹450</b></p>
+            <button onclick="alert('Chocolate Cake added to your order!')">
+                Order Now
+            </button>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a"
+                 alt="Croissant">
+            <h3>Butter Croissant</h3>
+            <p>Fresh and crispy butter croissant.</p>
+            <p><b>Price: ₹80</b></p>
+            <button onclick="alert('Croissant added to your order!')">
+                Order Now
+            </button>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e"
+                 alt="Cookies">
+            <h3>Choco Cookies</h3>
+            <p>Delicious cookies with chocolate chips.</p>
+            <p><b>Price: ₹120</b></p>
+            <button onclick="alert('Cookies added to your order!')">
+                Order Now
+            </button>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h2>About Us</h2>
+        <p>
+            Sweet Treats Bakery provides fresh, tasty and quality bakery
+            products made with love.
+        </p>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: sweettreats@example.com</p>
+        <p>Phone: 9876543210</p>
+        <p>Address: Vijayawada, Andhra Pradesh</p>
+    </section>
+
+    <footer>
+        <p>© 2026 Sweet Treats Bakery | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
